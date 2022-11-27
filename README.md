@@ -17,3 +17,17 @@ docker compose exec node node ./dist/main.js
 ```sh 
 docker compose run node npm run build
 ```
+
+## Usage
+
+Write leaderboard in `output/leaderboard.json`:
+
+```sh 
+node main.js --guild <guildId>
+```
+
+Write leaderboard in a specified file path:
+
+```sh 
+node main.js --guild <guildId> --output ./path/to/file.json
+```
