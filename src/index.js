@@ -3,7 +3,7 @@ import Mee6LeaderboardExtractor from "./mee6LeaderboardExtractor/Mee6Leaderboard
 import * as path from "path";
 
 const args = commandLineArgs([
-    {name: "guild", alias: "g", type: Number},
+    {name: "guild", alias: "g", type: String},
     {name: "output", alias: "o", type: String, defaultValue: path.resolve(process.cwd(), "./output/leaderboard.json")},
 ]);
 
