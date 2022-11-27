@@ -1,0 +1,26 @@
+{
+  "name": "mee6-leaderboard-extractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --mode=development --watch",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmileCalixte/mee6-leaderboard-extractor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmileCalixte/mee6-leaderboard-extractor/issues"
+  },
+  "homepage": "https://github.com/EmileCalixte/mee6-leaderboard-extractor#readme",
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
